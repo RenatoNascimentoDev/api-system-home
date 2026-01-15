@@ -1,0 +1,7 @@
+{
+    "watch": ["src", ".env"],
+    "ext": "js,json",
+    "execMap": {
+        "js": "node --env-file=.env"
+    }
+}
