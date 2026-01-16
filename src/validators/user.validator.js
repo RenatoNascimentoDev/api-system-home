@@ -1,7 +1,7 @@
 import * as yup from "yup";
 
 export const PASSWORD_REGEX = /^(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).{6,}$/;
-const OBJECT_REGEX = /^[0-9a-fA-F]{24}$/;
+const OBJECTID_REGEX = /^[0-9a-fA-F]{24}$/;
 
 export const createUserBodySchema = yup
     .object({
